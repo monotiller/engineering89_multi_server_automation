@@ -1,0 +1,5 @@
+FROM mongo
+
+COPY . .
+
+EXPOSE 27017
